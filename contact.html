@@ -126,37 +126,37 @@
                             <div class="h-100 d-flex flex-column justify-content-center p-3">
                                 <p class="mb-2"><b>Please Drop Your Contact Number And Address So That We Can Contact With You.</b></p>
                                 
-                                <form action="https://getform.io/f/pbnvzxrb" method="POST">
+                                <form action="process_form.php" method="POST">
                                     <div class="row g-3">
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name" name="Name">
-                                                <label for="name">Your Name</label>
-                                            </div>
+                                      <div class="col-sm-6">
+                                        <div class="form-floating">
+                                          <input type="text" class="form-control border-0" id="name" placeholder="Your Name" name="Name" required>
+                                          <label for="name">Your Name</label>
                                         </div>
-                                        <div class="col-sm-6">
-                                            <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email" email="Email">
-                                                <label for="email">Your Email</label>
-                                            </div>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <div class="form-floating">
+                                          <input type="email" class="form-control border-0" id="email" placeholder="Your Email" email="Email" name="Email" required>
+                                          <label for="email">Your Email</label>
                                         </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="subject" subject="Subject" placeholder="Subject" subject="Subject">
-                                                <label for="subject">Subject</label>
-                                            </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <div class="form-floating">
+                                          <input type="text" class="form-control border-0" id="subject" subject="Subject" placeholder="Subject" subject="Subject" name="Subject" required>
+                                          <label for="subject">Subject</label>
                                         </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px" message="Message"></textarea>
-                                                <label for="message">Message</label>
-                                            </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <div class="form-floating">
+                                          <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px" message="Message" name="Message" required></textarea>
+                                          <label for="message">Message</label>
                                         </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                        </div>
+                                      </div>
+                                      <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                      </div>
                                     </div>
-                                </form>
+                                  </form>
                                 
                             </div>
                         </div>
