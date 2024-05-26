@@ -4,7 +4,7 @@ $name = $_POST['Name'];
 $email = $_POST['Email'];
 $subject = $_POST['Subject'];
 $message = $_POST['Message'];
-
+die($name):
 // Your Zoho Mail details (replace with yours)
 $smtp_host = "smtp.zoho.com";  // Replace with actual hostname
 $smtp_port = 587;              // Replace if using a different port
