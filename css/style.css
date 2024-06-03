@@ -358,8 +358,8 @@ h6,
 /*** Team ***/
 .team-item .team-text {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     bottom: 0;
     right: 0;
     display: flex;
@@ -367,8 +367,8 @@ h6,
     justify-content: center;
     flex-direction: column;
     background: #FFFFFF;
-    border: 17px solid var(--light);
-    border-radius: 200px;
+    border: 10px solid var(--light);
+    border-radius: 150px;
     transition: .5s;
 }
 
