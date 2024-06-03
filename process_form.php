@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // Get form data
 $name = $_POST['Name'];
 $email = $_POST['Email'];
@@ -18,4 +18,4 @@ $body = "Name: $name\nEmail: $email\nSubject: $subject\n\nMessage:\n$message";
 $headers = "From: $smtp_username \r\n";
 $headers .= "Reply-To: $email \r\n";
 $headers .= "Content-Type: text/plain; charset=
-?>
+?> -->
