@@ -14,6 +14,26 @@
           "iframe[allow]"
         ]
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-overflow-scrolling"
+        ]
+      }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 17.5",
+    "not safari <= 17.5",
+    "not and_chr <= 124",
+    "not chrome <= 125",
+    "not edge <= 124",
+    "not firefox <= 126",
+    "not samsung <= 24",
+    "not and_ff <= 125"
+  ]
 }
