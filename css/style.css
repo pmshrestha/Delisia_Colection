@@ -358,8 +358,8 @@ h6,
 /*** Team ***/
 .team-item .team-text {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 100px;
     bottom: 0;
     right: 0;
     display: flex;
@@ -517,4 +517,10 @@ h6,
     height: 100%;
     object-fit: cover;
     border-radius:50%;
+}
+.oval-img {
+    width: 300px; /* Set the width of the image */
+    height: 425px; /* Set the height of the image */
+    border-radius: 50%; /* Makes the image oval */
+    object-fit: cover; /* Ensures the image covers the entire element */
 }
