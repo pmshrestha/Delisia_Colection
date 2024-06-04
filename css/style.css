@@ -519,8 +519,8 @@ h6,
     border-radius:50%;
 }
 .oval-img {
-    width: 300px; /* Set the width of the image */
-    height: 425px; /* Set the height of the image */
-    border-radius: 50%; /* Makes the image oval */
+    width: 300px; 
+    height: 425px; 
+    border-radius: 50%; 
     object-fit: cover; /* Ensures the image covers the entire element */
 }
